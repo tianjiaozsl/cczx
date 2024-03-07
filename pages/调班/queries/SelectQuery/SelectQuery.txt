@@ -1,0 +1,3 @@
+SELECT stu_id as 学号,grade as 年级,class as 班级,name as 姓名,ssn as 身份证,state as 是否在校 
+from students 
+WHERE if({{Switch1.isSwitchedOn}},grade = "{{Select1.selectedOptionValue}}" and class > 0 and state = "是",grade = "{{Select1.selectedOptionValue}}");

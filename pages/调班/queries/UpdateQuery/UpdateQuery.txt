@@ -1,0 +1,5 @@
+UPDATE students SET
+ssn = "{{update_form.formData.身份证}}",
+class = {{update_form.formData.班级}},
+state = "{{update_form.formData.是否在校}}"
+WHERE stu_id = "{{update_form.formData.学号}}";

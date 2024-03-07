@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "myvars",
+    "pageId": "学生查询修改",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "mygrade",
+        "value": "[{\n  \"label\": \"高一\",\n  \"value\": \"高一\"\n}, {\n  \"label\": \"高二\",\n  \"value\": \"高二\"\n}, {\n  \"label\": \"高三\",\n  \"value\": \"高三\"\n}, {\n  \"label\": \"自强\",\n  \"value\": \"自强\"\n}]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "学生查询修改_myvars",
+  "deleted": false,
+  "gitSyncId": "64be7d005ff76c6187fb302f_64be7d005ff76c6187fb306a"
+}

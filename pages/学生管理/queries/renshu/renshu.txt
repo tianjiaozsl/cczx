@@ -1,0 +1,10 @@
+SELECT count(*) as 人数 FROM students 
+where
+	case
+		when {{!Switch1.isSwitchedOn}} then grade = '{{Select1.selectedOptionValue}}' and class > 0
+		ELSE grade = '{{Select1.selectedOptionValue}}' and class > 0 and state = '是'
+	end;
+
+SELECT count(*) as 全校人数 FROM students;
+
+SELECT count(*) as 参试人数 FROM students where grade = '{{Select1.selectedOptionValue}}' and class > 0 and state = '是';

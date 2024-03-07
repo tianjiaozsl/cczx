@@ -1,0 +1,11 @@
+SELECT c.kind as 类别, COUNT(*) as 人数
+FROM students s
+JOIN class c ON s.grade = c.grade AND s.class = c.class
+where
+	case
+		when {{!Switch1.isSwitchedOn}} then s.grade = '{{Select1.selectedOptionValue}}'
+		ELSE s.grade = '{{Select1.selectedOptionValue}}' and s.class > 0 and s.state = '是'
+	end
+GROUP BY c.kind;
+
+

@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "myvars",
+    "pageId": "学生管理",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "mygrade",
+        "value": "[{\n  \"label\": \"高一\",\n  \"value\": \"高一\"\n}, {\n  \"label\": \"高二\",\n  \"value\": \"高二\"\n}, {\n  \"label\": \"高三\",\n  \"value\": \"高三\"\n}, {\n  \"label\": \"自强\",\n  \"value\": \"自强\"\n}]"
+      },
+      {
+        "name": "mappings",
+        "value": "{\n  \"高一\": 2023,\n  \"高二\": 2022,\n  \"高三\": 2021,\n  \"自强\": 2020\n}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "学生管理_myvars",
+  "deleted": false,
+  "gitSyncId": "64be7d005ff76c6187fb302f_64be7d005ff76c6187fb306e"
+}

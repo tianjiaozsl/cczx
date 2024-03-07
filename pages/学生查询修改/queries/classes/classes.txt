@@ -1,0 +1,2 @@
+SELECT DISTINCT class FROM students where grade = '{{Select_grade.selectedOptionValue}}'
+order by class;

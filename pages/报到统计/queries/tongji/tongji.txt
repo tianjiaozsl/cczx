@@ -1,0 +1,7 @@
+SELECT grade as 年级,class as 班级, 
+       COUNT(CASE WHEN xueji_school IS NOT NULL THEN name END) AS 已注册,
+       COUNT(*) AS 总人数
+FROM students
+where grade = "{{Select1.selectedOptionLabel}}"
+GROUP BY grade, class
+ORDER by class;

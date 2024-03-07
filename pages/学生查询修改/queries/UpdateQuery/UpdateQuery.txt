@@ -1,0 +1,27 @@
+UPDATE students SET
+name = '{{update_form.formData.姓名}}',
+sex = '{{update_form.formData.性别}}',
+ssn = '{{update_form.formData.身份证号}}',
+phone = '{{update_form.formData.电话}}',
+address = '{{update_form.formData.住址}}',
+huji_addr = '{{update_form.formData.户籍地址}}',
+huji_type = '{{update_form.formData.户籍性质}}',
+huji_xiangzhen = '{{update_form.formData.户籍所在乡镇}}',
+is_tuan = '{{update_form.formData.是否团员}}',
+is_xueji = '{{update_form.formData.学籍是否在本校}}',
+jianhu_chengwei = '{{update_form.formData.监护人称谓}}',
+jianhu_name = '{{update_form.formData.监护人姓名}}',
+jianhu_phone = '{{update_form.formData.监护人电话}}',
+fq_name = '{{update_form.formData.父亲姓名}}',
+fq_phone = '{{update_form.formData.父亲电话}}',
+fq_danwei = '{{update_form.formData.父亲单位}}',
+mq_name = '{{update_form.formData.母亲姓名}}',
+mq_phone = '{{update_form.formData.母亲电话}}',
+mq_danwei = '{{update_form.formData.母亲单位}}',
+teshu = '{{update_form.formData.特殊学生}}',
+xueji_school = '{{update_form.formData.学籍所在学校}}',
+yingwang = '{{update_form.formData.应往届}}',
+minzu = '{{update_form.formData.民族}}',
+state = '是'
+
+WHERE stu_id = '{{update_form.formData.学号}}';

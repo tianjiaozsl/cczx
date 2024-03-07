@@ -1,0 +1,1 @@
+SELECT COUNT(*) as counts FROM students where ssn = '{{InsertForm.formData.身份证号}}'

@@ -1,0 +1,4 @@
+SELECT
+stu_id as 学号,name as 姓名,grade as 年级,class as 班级,{{Select3.selectedOptionValue}} as {{Select3.selectedOptionLabel}}
+FROM students
+WHERE {{Select3.selectedOptionValue}} LIKE '%{{Input1.text}}%';

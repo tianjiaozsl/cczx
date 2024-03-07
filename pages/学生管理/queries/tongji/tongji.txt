@@ -1,0 +1,7 @@
+SELECT class AS 班级, COUNT(*) AS 人数,
+       SUM(CASE WHEN sex = '男' THEN 1 ELSE 0 END) AS 男,
+       SUM(CASE WHEN sex = '女' THEN 1 ELSE 0 END) AS 女
+FROM students
+WHERE grade = '{{Select1.selectedOptionValue}}' and class > 0 and state = '是'
+GROUP BY class
+order by class;

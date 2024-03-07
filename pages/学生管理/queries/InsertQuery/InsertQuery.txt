@@ -1,0 +1,26 @@
+INSERT INTO 
+students (name, grade, class, sex, ssn, phone, address, minzu, admission_year, huji_addr, huji_type, huji_xiangzhen, is_tuan, is_xueji, jianhu_chengwei, jianhu_name, jianhu_ssn, jianhu_phone, jianhu_danwei, jianhu_zhiwu, state, beizhu)
+VALUES (
+ '{{InsertForm.formData.姓名}}',
+ '{{InsertForm.formData.年级}}',
+ '{{InsertForm.formData.班级}}',
+ '{{InsertForm.formData.性别}}',
+ '{{InsertForm.formData.身份证号}}',
+ '{{InsertForm.formData.电话}}',
+ '{{InsertForm.formData.住址}}',
+ '{{InsertForm.formData.民族}}',
+ '{{InsertForm.formData.入学年份}}',
+ '{{InsertForm.formData.户籍地址}}',
+ '{{InsertForm.formData.户籍性质}}',
+ '{{InsertForm.formData.户籍所在乡镇}}',
+ '{{InsertForm.formData.是否团员}}',
+ '{{InsertForm.formData.学籍是否在本校}}',
+ '{{InsertForm.formData.监护人称谓}}',
+ '{{InsertForm.formData.监护人姓名}}',
+ '{{InsertForm.formData.监护人身份证}}',
+ '{{InsertForm.formData.监护人电话}}',
+ '{{InsertForm.formData.监护人单位}}',
+ '{{InsertForm.formData.监护人职务}}',
+ '是',
+ '{{InsertForm.formData.备注}}'
+);

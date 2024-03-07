@@ -1,0 +1,2 @@
+SELECT class as 班级,count(name) as 人数,count(ssn) as 注册数 FROM students where grade = "{{Select1.selectedOptionValue}}"
+group by class order by class

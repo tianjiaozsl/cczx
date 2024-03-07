@@ -1,0 +1,5 @@
+SELECT 
+stu_id as 学号,name as 姓名,sex as 性别,grade as 年级,class AS 班级,ssn as 身份证号,phone as 电话,address as 住址,huji_addr as 户籍地址,huji_type as 户籍性质,huji_xiangzhen as 户籍所在乡镇,is_tuan as 是否团员,xueji_school as 学籍所在学校,fq_name as 父亲姓名,fq_danwei as 父亲单位,fq_phone as 父亲电话,mq_name as 母亲姓名,mq_danwei as 母亲单位,mq_phone as 母亲电话,jianhu_chengwei as 监护人称谓,jianhu_name as 监护人姓名,jianhu_phone as 监护人电话,yingwang as 应往届,minzu as 民族,teshu as 特殊学生
+
+FROM students WHERE grade = '{{Select_grade.selectedOptionValue}}' and name = '{{Input_name.text}}' AND
+class = {{Select_class.selectedOptionValue}};

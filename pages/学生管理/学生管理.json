@@ -1,0 +1,49 @@
+{
+  "unpublishedPage": {
+    "name": "学生管理",
+    "slug": "",
+    "customSlug": "202310011139",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "mobileBottomRow": 4436.000000000001,
+          "widgetName": "MainContainer",
+          "topRow": 0,
+          "bottomRow": 650,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "minHeight": 900,
+          "useAutoLayout": false,
+          "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "positioning": "fixed",
+          "backgroundColor": "none",
+          "rightColumn": 1174,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "containerStyle": "none",
+          "snapRows": 125,
+          "version": 89,
+          "mobileTopRow": 0
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "学生管理",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "64be7d005ff76c6187fb302f_64be7d005ff76c6187fb3035"
+}

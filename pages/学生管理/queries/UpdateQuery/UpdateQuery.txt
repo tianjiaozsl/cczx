@@ -1,0 +1,12 @@
+UPDATE students SET
+name = '{{update_form.formData.姓名}}',
+sex = '{{update_form.formData.性别}}',
+ssn = '{{update_form.formData.身份证号}}',
+grade = '{{update_form.formData.年级}}',
+class = '{{update_form.formData.班级}}',
+phone = '{{update_form.formData.电话}}',
+address = '{{update_form.formData.住址}}',
+huji_addr = '{{update_form.formData.户籍地址}}',
+huji_type = '{{update_form.formData.户籍性质}}',
+huji_xiangzhen = '{{update_form.formData.户籍所在乡镇}}',
+WHERE stu_id = '{{update_form.formData.学号}}';
