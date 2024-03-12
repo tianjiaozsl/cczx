@@ -8,5 +8,5 @@ phone = '{{update_form.formData.电话}}',
 address = '{{update_form.formData.住址}}',
 huji_addr = '{{update_form.formData.户籍地址}}',
 huji_type = '{{update_form.formData.户籍性质}}',
-huji_xiangzhen = '{{update_form.formData.户籍所在乡镇}}',
+huji_xiangzhen = '{{update_form.formData.户籍所在乡镇}}'
 WHERE stu_id = '{{update_form.formData.学号}}';

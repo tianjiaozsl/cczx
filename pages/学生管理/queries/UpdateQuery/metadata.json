@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE students SET\nname = '{{update_form.formData.姓名}}',\nsex = '{{update_form.formData.性别}}',\nssn = '{{update_form.formData.身份证号}}',\ngrade = '{{update_form.formData.年级}}',\nclass = '{{update_form.formData.班级}}',\nphone = '{{update_form.formData.电话}}',\naddress = '{{update_form.formData.住址}}',\nhuji_addr = '{{update_form.formData.户籍地址}}',\nhuji_type = '{{update_form.formData.户籍性质}}',\nhuji_xiangzhen = '{{update_form.formData.户籍所在乡镇}}',\nWHERE stu_id = '{{update_form.formData.学号}}';",
+      "body": "UPDATE students SET\nname = '{{update_form.formData.姓名}}',\nsex = '{{update_form.formData.性别}}',\nssn = '{{update_form.formData.身份证号}}',\ngrade = '{{update_form.formData.年级}}',\nclass = '{{update_form.formData.班级}}',\nphone = '{{update_form.formData.电话}}',\naddress = '{{update_form.formData.住址}}',\nhuji_addr = '{{update_form.formData.户籍地址}}',\nhuji_type = '{{update_form.formData.户籍性质}}',\nhuji_xiangzhen = '{{update_form.formData.户籍所在乡镇}}'\nWHERE stu_id = '{{update_form.formData.学号}}';",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
